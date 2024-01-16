@@ -79,7 +79,7 @@ const App = () => {
         />
       </div>
       {filteredList.length ? (
-        <div className="mx-auto border border-black p-3 mt-6">
+        <div className="mx-auto border border-black p-3 mt-0">
           {filteredList.map((list) => {
             return (
               <div
